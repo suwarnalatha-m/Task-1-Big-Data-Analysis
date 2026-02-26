@@ -4,7 +4,6 @@
 This project demonstrates **Big Data Analysis** using PySpark on a retail transaction dataset.  
 The objective is to perform scalable data processing, extract business insights, and demonstrate distributed computation compared with traditional data processing tools.
 
----
 
 ## 🎯 Objective
 - Perform analysis on a large dataset using **PySpark**
@@ -13,7 +12,6 @@ The objective is to perform scalable data processing, extract business insights,
 - Demonstrate **scalability** using distributed processing
 - Compare performance between **Pandas** and **PySpark**
 
----
 
 ## 🗂 Dataset Information
 **Dataset Name:** Online Retail Dataset  
@@ -23,7 +21,6 @@ The objective is to perform scalable data processing, extract business insights,
 
 The dataset contains online retail transactions including product details, quantity, price, and customer country.
 
----
 
 ## 🛠 Tools & Technologies Used
 - Python
@@ -33,7 +30,7 @@ The dataset contains online retail transactions including product details, quant
 - Matplotlib & Plotly
 - GitHub
 
----
+
 
 ## ⚙️ Project Workflow
 
@@ -74,7 +71,6 @@ Generated visual insights using:
   - Pandas (single-machine processing)
   - PySpark (distributed processing)
 
----
 
 ## 📊 Key Insights
 - Certain products contributed significantly to total sales volume.
@@ -82,18 +78,14 @@ Generated visual insights using:
 - Revenue trends showed seasonal variation across months.
 - Distributed processing enables scalable analytics for large datasets.
 
----
 
 ## ⚡ Scalability Result
 PySpark distributed the dataset across multiple partitions enabling parallel computation.
 
 Although Pandas executed faster for this dataset due to smaller size, PySpark becomes significantly more efficient when handling large-scale datasets exceeding memory limits.
 
----
-
 ## ✅ Conclusion
 This project demonstrates how PySpark enables scalable big data analytics through distributed computation. The workflow highlights real-world data engineering practices including cleaning, transformation, visualization, and performance comparison.
 
----
 
 
